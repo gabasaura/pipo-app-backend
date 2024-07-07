@@ -20,7 +20,7 @@ app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY')
 db.init_app(app)
 jwt = JWTManager(app)
 Migrate(app, db)
-CORS(app)  # Se evita que se bloqueen las peticiones
+CORS(app, resources={r"/*": {"origins": "https://pipo-app-frontend.onrender.com"}})
 
 
 @app.route('/token', methods=['GET'])
