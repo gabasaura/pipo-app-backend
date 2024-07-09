@@ -24,7 +24,7 @@ CORS(app, resources={r"/*": {"origins": "https://pipo-app-frontend.onrender.com"
 
 
 @app.route('/token', methods=['GET'])
-def token():
+def token(): 
     data = {
         "access token": create_access_token(identity="teste@email.com")
     }
@@ -376,3 +376,4 @@ with app.app_context():
 
 if __name__ == '__main__':
     app.run()
+
