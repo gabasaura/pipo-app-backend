@@ -5,4 +5,6 @@ Orientada a usuarios extranjeros para favorecer su libre exploración de la ciud
 El Stack de teconologías utilizadas en Back-End es:
 Python, Flask, JWT, Docker, Postgres container de Docker, Toastify.
 
-El acceso al Front-End se encuentra en el siguiente link :https://github.com/gabasaura/pipo-app-frontend.git
+El acceso al Front-End se encuentra en el siguiente [🔗 link:](https://github.com/gabasaura/pipo-app-frontend.git)
+
+[🔗👁️](https://pipo-app-frontend.onrender.com/)
